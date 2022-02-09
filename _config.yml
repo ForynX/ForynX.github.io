@@ -1,4 +1,5 @@
 markdown: kramdown
+include: ['projekty']
 url: ''
 baseurl: null
 title: Kamil Podsiadło
@@ -24,7 +25,7 @@ spotify_username:
 google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 author-name: TheDevsLot
-author-image: assets/images/Kamil.jpg
+author-image: /assets/images/Kamil.jpg
 author-about: >-
   Moim głównym zainteresowaniem jest grafika komputerowa- głównie 3D, którą
   zacząłem zajmować się już w wieku 14 lat. Lubię również programować, choć nie
