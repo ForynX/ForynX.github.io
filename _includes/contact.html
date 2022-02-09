@@ -1,6 +1,46 @@
+<script type="text/javascript">var submitted=false;</script>
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
+            <!-- kontakt mail -->
+            <div class="container my-5 mt-5 mx-5 px-5">
+                <h2 class="title is-2">Skontaktuj się</h2>
+                <form id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeVcA8kY6_fRQ80jIhSFH7oSG8PtfSVeg8Rhq1-H7KWJwPzNw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                    <div class="field">
+                        <label for="name" class="label is-size-4 has-text-weight-light"></label>
+                        <div class="control has-icons-left">
+                            <input type="text" name="entry.1414957580" id="entry.1414957580" class="input" placeholder="Nazwa" autofocus>
+                                <span class="icon is-left">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="label is-size-4 has-text-weight-light"></label>
+                        <div class="control has-icons-left">
+                            <input type="email" name="entry.230735891" id="entry.230735891" class="input" placeholder="Email">
+                                <span class="icon is-left">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <textarea name="entry.111711075" id="entry.111711075" rows="5" class="textarea is-medium" placeholder="Wiadomość"></textarea>
+                    </div>
+                    <button id="contact-button" type="submit" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths">
+                    <i class="fas fa-envelope"></i>Wyślij
+                    </button>
+                
+                </form>
+                <!--
+                https://docs.google.com/forms/d/e/1FAIpQLSeVcA8kY6_fRQ80jIhSFH7oSG8PtfSVeg8Rhq1-H7KWJwPzNw/formResponse?
+                entry.1414957580=Name
+                entry.230735891=mail
+                entry.111711075=tresc
+                -->
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+            </div>
             {% unless site.facebook_username == %}
             <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
@@ -8,13 +48,13 @@
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
-            {% unless site.email == %}
+            <!--
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fas fa-envelope"></i>Send me an Email
             </a>
-            {% endunless %}
+            -->
             {% unless site.twitter_username ==  %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
@@ -24,7 +64,7 @@
             {% endunless %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
+                Tutaj mnie znajdziesz
             </h3>
             <div class="column is-full is-size-3">
                 {% unless site.facebook_username == %}
@@ -64,3 +104,9 @@
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+    document.getElementById('gform').addEventListener('submit', function(e) {
+        document.getElementById('gform').prepend('<span>Wysłano ziomeczku, gdy stoisz pod sceną!</span>');
+      });
+</script>

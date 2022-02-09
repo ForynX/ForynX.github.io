@@ -3,7 +3,7 @@ include: ['projekty']
 url: ''
 baseurl: null
 title: Kamil Podsiadło
-description: Grafik 3D i więcej
+description: Grafika 3D i więcej
 site-image: assets/images/meta.jpg
 site-keywords: 'Kamil, Podsiadło, Portfolio, Grafika 3D'
 favicon-url: >-
