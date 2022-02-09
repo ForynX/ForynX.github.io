@@ -23,14 +23,13 @@
             <div class="navbar-end">
                 <!--<a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>-->
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">O MNIE</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">KONTAKT</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}" 
-                    href="{{site.url}}{{site.baseurl}}/portfolio">PORTFOLIO</a>
+                <a class="navbar-item scroll" href="{{site.url}}{{site.baseurl}}/#about">O MNIE</a>
+                {% include dropdown.html %} 
+                <a class="navbar-item scroll" href="{{site.url}}{{site.baseurl}}/#contact">KONTAKT</a>
+                
                 <!-- <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
                  -->
-                {% include dropdown.html %} 
             </div>
 
         </div>
@@ -56,4 +55,30 @@
             });
         }
     });
+
+    window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var item = document.getElementsByClassName('scroll');
+    /*console.log(scroll);*/
+    if (scroll < 565) {
+      item[0].classList.remove('is-active');
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+    }
+    if (scroll > 565 && scroll < 1290) {
+      item[0].classList.add('is-active');
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+    }
+    if (scroll > 1290 && scroll < 1990) {
+      item[0].classList.remove('is-active');
+      item[1].classList.add('is-active');
+      item[2].classList.remove('is-active');
+    }
+    if (scroll > 1990) {
+      item[0].classList.remove('is-active');
+      item[1].classList.remove('is-active');
+      item[2].classList.add('is-active');
+    }
+  });
 </script>
