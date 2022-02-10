@@ -1,9 +1,9 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for pag in site.pages %}
-  {% if pag.path contains 'projekty/' %}
+  {% if pag.path contains 'kategorie/' %}
     <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
       id="project-card">
-      <a href="{{pag.url}}" target="_blank">
+      <a href="{{pag.url}}">
       <div class="has-background-black card">
         <figure class="image is-3by1" style="background-image: url({{pag.image}});">
         </figure>

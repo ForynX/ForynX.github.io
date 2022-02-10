@@ -1,6 +1,7 @@
 ---
-title: Projekty 2D
-layout: page
+title: Papryyka
+layout: blank
+id: 2D
 ---
 
 # This is heading 1

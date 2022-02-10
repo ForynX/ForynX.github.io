@@ -1,5 +1,5 @@
 markdown: kramdown
-include: ['projekty']
+include: ['projekty','kategorie']
 url: ''
 baseurl: null
 title: Kamil Podsiadło
