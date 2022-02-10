@@ -1,30 +1,10 @@
 ---
-title: Papryyka
+title: Papryka
 layout: blank
-id: 2D
+id: 3D
+
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+# Ćwiczeniowy model papryki wykonany metodą rzeźbienia w programie Blender.
+![Papryka render]({{site.url}}/assets/images/Kamil.jpg)
 
-[This is a link](#)
-
-> This is a blockquote
-
-`This is code`
-
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
