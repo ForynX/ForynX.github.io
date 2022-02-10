@@ -354,3 +354,7 @@ a.navbar-item.is-active {
         }
     }
 }
+
+.disabled{
+    pointer-events: none;
+}
