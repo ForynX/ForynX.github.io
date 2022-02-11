@@ -5,12 +5,15 @@
       id="project-card">
       <a id="modal" name="{{pag.path | remove:'.md'}}" onclick="modalClick(this,'{{ pag.title }}')">
       <div class="has-background-black card">
-        <figure class="image is-3by1" style="background-image: url({{pag.image}});">
-        </figure>
-        <div class="card-content">
-          <h1 class="title has-text-white is-size-4">{{ pag.title }}</h1>
-         <!--<p class="has-text-white has-text-weight-light content">{{ project.description | truncate: 80}}</p>-->
+        <figure class="image is-3by1 is-marginless" style="background-image: url({{pag.image}});border-radius: 0.5rem;">
+          <div class="card-content has-background-black" style="padding: 10px;opacity:80%;border-radius: 0.5rem;">
+          <div>
+            <h1 class="title has-text-white is-size-4 ">{{ pag.title }}</h1>
+            {{pag.date}}
+          </div>
         </div>
+        </figure>
+        
       </div>
       </a>
     </div>
@@ -38,7 +41,7 @@
   document.querySelector(".modal").classList.add('is-active');
   document.querySelector("html").classList.add('is-clipped');
   document.querySelector(".modal-card-body").innerHTML='';
-  document.querySelector(".modal-card-body").innerHTML='<object style="width:95%;height:95%" type="text/html" data={{site.url}}/'+e.name+' ></object>';
+  document.querySelector(".modal-card-body").innerHTML='<object style="width:95%;height:98%" type="text/html" data={{site.url}}/'+e.name+' ></object>';
   document.getElementById('projectName').innerHTML=i;
   };
   document.querySelector(".delete").addEventListener('click', function(){

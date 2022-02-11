@@ -62,22 +62,22 @@
     /*console.log(scroll);*/
     if (scroll < 565) {
       item[0].classList.remove('is-active');
-      item[1].classList.remove('is-active');
+      item[1].classList.remove('has-background-grey-dark');
       item[2].classList.remove('is-active');
     }
-    if (scroll > 565 && scroll < 1290) {
+    if (scroll > 565 && scroll < 1170) {
       item[0].classList.add('is-active');
-      item[1].classList.remove('is-active');
+      item[1].classList.remove('has-background-grey-dark');
       item[2].classList.remove('is-active');
     }
-    if (scroll > 1290 && scroll < 1990) {
+    if (scroll > 1170 && scroll < 1870) {
       item[0].classList.remove('is-active');
-      item[1].classList.add('is-active');
+      item[1].classList.add('has-background-grey-dark');
       item[2].classList.remove('is-active');
     }
-    if (scroll > 1990) {
+    if (scroll > 1870) {
       item[0].classList.remove('is-active');
-      item[1].classList.remove('is-active');
+      item[1].classList.remove('has-background-grey-dark');
       item[2].classList.add('is-active');
     }
   });

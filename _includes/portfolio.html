@@ -2,7 +2,7 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="section">
-                <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Moje Portfolio</p>
+                <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{% if page.layout == 'default' %}Moje Portfolio{% elsif page.layout == 'page' %}Moje prace{% endif %}</p>
             </div>
             {% if page.layout == 'default' %}
             {% include category-cards.html %}
