@@ -3,7 +3,7 @@ title: Mini domek
 layout: blank
 id: 3D
 date: 2021
-image: /assets/images/domek1.jpg
+image: /assets/images/3d/domek1.jpg
 ---
 
 <div style="text-align: justify"> 
@@ -15,6 +15,6 @@ Była to dla mnie okazja na poznanie nowego programu, który okazał się być b
 <br><br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/domek1.jpg)
+![Papryka render]({{site.url}}/assets/images/3d/domek1.jpg)
 
 

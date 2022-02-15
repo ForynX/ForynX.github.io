@@ -3,7 +3,7 @@ title: Stara przyczepka
 layout: blank
 id: 3D
 date: 2022
-image: /assets/images/Przyczepka1.png
+image: /assets/images/3d/Przyczepka1.png
 ---
 
 <div style="text-align: justify"> 
@@ -13,15 +13,15 @@ Model przyczepki zoptymalizowany do gier. Wykonany w Blenderze na podstawie zdjÄ
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/Przyczepka1.png)
+![Papryka render]({{site.url}}/assets/images/3d/Przyczepka1.png)
 *Finalny model*
 
-![Papryka render]({{site.url}}/assets/images/Przyczepka2.png)
+![Papryka render]({{site.url}}/assets/images/3d/Przyczepka2.png)
 *Model low poly*
 
-![Papryka render]({{site.url}}/assets/images/Przyczepka3.png)
+![Papryka render]({{site.url}}/assets/images/3d/Przyczepka3.png)
 *Model high poly*
 
-![Papryka render]({{site.url}}/assets/images/Przyczepka4.jpg)
+![Papryka render]({{site.url}}/assets/images/3d/Przyczepka4.jpg)
 *ZdjÄ™cie referencyjne*
 
