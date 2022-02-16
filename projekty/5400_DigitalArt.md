@@ -13,8 +13,12 @@ Zdarza mi się również coś pomalować z wykorzystaniem tabletu graficznego. N
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/IronMan.png)
+![Art]({{site.url}}/assets/images/DigitalArt/IronMan.png)
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/SpiderMan.png)
+![Art]({{site.url}}/assets/images/DigitalArt/SpiderMan.png)
+
+![Art]({{site.url}}/assets/images/DigitalArt/narcyz.png)
+
+![Art]({{site.url}}/assets/images/DigitalArt/rick.png)
 
 

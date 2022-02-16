@@ -13,7 +13,7 @@ Model głośniczka wykonany w skali 1:1,  który zmienia kolor podświetlenia w
 </h2><br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/glosnik1.png)
+![Glosnik render]({{site.url}}/assets/images/3d/glosnik1.png)
 
-![Papryka render]({{site.url}}/assets/images/3d/glosnik2.png)
+![Glosnik render]({{site.url}}/assets/images/3d/glosnik2.png)
 

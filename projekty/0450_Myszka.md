@@ -15,13 +15,13 @@ Z racji na dużo obłych kształtów zdecydowałem się wykonać sculpt bazy, na
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/myszka1.png)
+![Myszka render]({{site.url}}/assets/images/3d/myszka1.png)
 
-![Papryka render]({{site.url}}/assets/images/3d/myszka2.png)
+![Myszka render]({{site.url}}/assets/images/3d/myszka2.png)
 
-![Papryka render]({{site.url}}/assets/images/3d/myszka3.png)
+![Myszka render]({{site.url}}/assets/images/3d/myszka3.png)
 
-![Papryka render]({{site.url}}/assets/images/3d/myszka4.png)
+![Myszka render]({{site.url}}/assets/images/3d/myszka4.png)
 
-![Papryka render]({{site.url}}/assets/images/3d/myszka5.png)
+![Myszka render]({{site.url}}/assets/images/3d/myszka5.png)
 

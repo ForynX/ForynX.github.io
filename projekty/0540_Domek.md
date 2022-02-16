@@ -15,6 +15,10 @@ Była to dla mnie okazja na poznanie nowego programu, który okazał się być b
 <br><br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/domek1.jpg)
+![Domek render]({{site.url}}/assets/images/3d/domek1.jpg)
+
+![Domek render]({{site.url}}/assets/images/3d/domek2.png)
+
+![Domek render]({{site.url}}/assets/images/3d/domek3.png)
 
 

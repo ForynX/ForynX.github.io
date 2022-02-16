@@ -13,15 +13,15 @@ Model przyczepki zoptymalizowany do gier. Wykonany w Blenderze na podstawie zdjÄ
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/Przyczepka1.png)
+![Przyczepka render]({{site.url}}/assets/images/3d/Przyczepka1.png)
 *Finalny model*
 
-![Papryka render]({{site.url}}/assets/images/3d/Przyczepka2.png)
+![Przyczepka render]({{site.url}}/assets/images/3d/Przyczepka2.png)
 *Model low poly*
 
-![Papryka render]({{site.url}}/assets/images/3d/Przyczepka3.png)
+![Przyczepka render]({{site.url}}/assets/images/3d/Przyczepka3.png)
 *Model high poly*
 
-![Papryka render]({{site.url}}/assets/images/3d/Przyczepka4.jpg)
+![Przyczepka render]({{site.url}}/assets/images/3d/Przyczepka4.jpg)
 *ZdjÄ™cie referencyjne*
 

@@ -13,6 +13,6 @@ Grafika świąteczna wykonana dla firmy zajmującej się konstrukcjami metalowym
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/choinka.png)
+![Choinka render]({{site.url}}/assets/images/3d/choinka.png)
 
 

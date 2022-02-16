@@ -12,6 +12,6 @@ Model lampy wykonany w Blenderze na potrzeby projektu wnętrza.
 </h2><br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/3d/lampa.png)
+![Lampa render]({{site.url}}/assets/images/3d/lampa.png)
 
 

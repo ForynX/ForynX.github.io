@@ -13,12 +13,12 @@ Poniżej grafiki 2d, które tworzyłem do fanowskich gier m.in. "Gimper Simulato
 <br>
 </div>
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/szopaRysunek.png)
+![Grafiki gry]({{site.url}}/assets/images/DigitalArt/szopaRysunek.png)
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/pizzeriaRysunek.png)
+![Grafiki gry]({{site.url}}/assets/images/DigitalArt/pizzeriaRysunek.png)
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/szpitalRysunek.png)
+![Grafiki gry]({{site.url}}/assets/images/DigitalArt/szpitalRysunek.png)
 
-![Papryka render]({{site.url}}/assets/images/DigitalArt/ironman2.png)
+![Grafiki gry]({{site.url}}/assets/images/DigitalArt/ironman2.png)
 
 

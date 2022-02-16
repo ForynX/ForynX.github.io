@@ -13,12 +13,12 @@ Model Mario był moim obiektem ćwiczeń sculptingu. Przy moim pierwszym podejś
 <br>
 </div>
 
-![Kratka render]({{site.url}}/assets/images/3d/mario.png)
+![Mario render]({{site.url}}/assets/images/3d/mario.png)
 *Sculpt w Blenderze*
 
-![Kratka render]({{site.url}}/assets/images/3d/mario1.png)<br>
+![Mario render]({{site.url}}/assets/images/3d/mario1.png)<br>
 *Rzeźba w programie Scluptris*
 
-![Kratka render]({{site.url}}/assets/images/3d/mario2.png)
+![Mario render]({{site.url}}/assets/images/3d/mario2.png)
 
 

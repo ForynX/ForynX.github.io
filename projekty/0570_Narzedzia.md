@@ -2,7 +2,7 @@
 title: Stylizowane narzędzia
 layout: blank
 id: 3D
-date: 2021
+date: 2020
 image: /assets/images/3d/prop.png
 ---
 
@@ -13,10 +13,10 @@ Narzędzia wymodelowane, następnie oteksturowane metodą texture paintingu dost
 <br>
 </div>
 
-![Kratka render]({{site.url}}/assets/images/3d/prop1.png)
+![Narzedzia render]({{site.url}}/assets/images/3d/prop1.png)
 
-![Kratka render]({{site.url}}/assets/images/3d/prop2.png)
+![Narzedzia render]({{site.url}}/assets/images/3d/prop2.png)
 
-![Kratka render]({{site.url}}/assets/images/3d/prop3.png)
+![Narzedzia render]({{site.url}}/assets/images/3d/prop3.png)
 
 
