@@ -358,3 +358,13 @@ a.navbar-item.is-active {
 .disabled{
     pointer-events: none;
 }
+.modal-card{
+    width:calc(100% - 40px);
+    height:80%;
+}
+.objectModal{
+    width:95%;height:98%;
+}
+.modal-card-head{
+    height:10%;
+}

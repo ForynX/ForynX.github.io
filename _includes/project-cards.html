@@ -22,9 +22,9 @@
  
   <div class="modal">
     <div class="modal-background"></div>
-    <div class="modal-card" style="width:70vw;height:80vw;">
+    <div class="modal-card" style="">
       <header class="modal-card-head">
-        <h1 class="title is-1 is-uppercase has-text-weight-bold" id="projectName"></h1><hr class="has-background-black">
+        <h1 class="title is-1 is-uppercase has-text-weight-bold modalText" style="font-size:2vw;" id="projectName"></h1><hr class="has-background-black">
         <button class="delete is-large" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
@@ -41,7 +41,7 @@
   document.querySelector(".modal").classList.add('is-active');
   document.querySelector("html").classList.add('is-clipped');
   document.querySelector(".modal-card-body").innerHTML='';
-  document.querySelector(".modal-card-body").innerHTML='<object style="width:95%;height:98%" type="text/html" data={{site.url}}/'+e.name+' ></object>';
+  document.querySelector(".modal-card-body").innerHTML='<object style="" class="objectModal" type="text/html" data={{site.url}}/'+e.name+' ></object>';
   document.getElementById('projectName').innerHTML=i;
   };
   document.querySelector(".delete").addEventListener('click', function(){
