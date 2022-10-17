@@ -10,7 +10,7 @@ image: /assets/images/wnetrza/2.jpg
 <h2> 
 Poniżej znajdują się przykłady tworzonych przeze mnie wizualizacji z czasów, gdy pracowałem w biurze projektowym.
 </h2>
-Pragnę podkreślić iż zajmowałem się kwestią techniczno-graficzną, nie odpowiadałem za koncepcje wizualne, projektowe, czy kompozycyjne.
+Pragnę podkreślić iż zajmowałem się jedynie kwestią graficzną, nie odpowiadałem za koncepcje wizualne, projektowe, czy kompozycyjne.
 <br>
 <br>
 </div>
