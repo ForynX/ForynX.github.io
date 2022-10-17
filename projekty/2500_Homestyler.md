@@ -8,7 +8,7 @@ image: /assets/images/wnetrza/2.jpg
 
 <div style="text-align: justify"> 
 <h2> 
-Poniżej pokażę przykłady wizualizacji, gdy pracowałem w biurze projektującym wnętrza.
+Poniżej znajdują się przykłady tworzonych przeze mnie wizualizacji z czasów, gdy pracowałem w biurze projektowym.
 </h2>
 Pragnę podkreślić iż zajmowałem się kwestią techniczno-graficzną, nie odpowiadałem za koncepcje wizualne, projektowe, czy kompozycyjne.
 <br>
